@@ -1,0 +1,47 @@
+/* 共通 css */
+:root {
+    --nav-bg-color: #121212;
+    --hover-bg-color: #3C3636;
+    --font-color: ;
+    --border-color: ;
+    --font-color: #000000;
+}
+* {
+    box-sizing: border-box;
+    color: var(--font-color);
+}
+body {
+    font-family: "Poppins", sans-serif;
+    margin: unset;
+}
+img {
+    display: block;
+}
+h2 {
+    margin: unset;
+    padding: unset;
+}
+h2 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 5.38;
+    color: var(--font-color);
+}
+a, a:visited {
+    font-weight: ;
+    font-size: px;
+    color: ;
+    text-decoration: none;
+}
+div.container {
+    max-width: px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+/* 狭い画面向けの既定の CSS レイアウト値 */
+
+
+/* 広い画面向けの CSS */
+@media (min-width: 600px) {
+}
