@@ -37,11 +37,11 @@ nav > div {
     grid-template-columns: repeat(4, 1fr);
     max-width: 1000px;
     margin: 0 auto;
+    position: relative;
 }
 details {
     width: 100%;
     text-align: center;
-    position: relative;
 }
 summary, li {
     font-weight: 400;
@@ -56,9 +56,18 @@ details[open] summary {
     background-color: var(--hover-bg-color);
 }
 ul {
+    height: 0;
+}
+ul.wide {
     position: absolute;
     left: 0;
     right: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--hover-bg-color);
+    height: fit-content;
+}
+li {
     background-color: var(--hover-bg-color);
 }
 
