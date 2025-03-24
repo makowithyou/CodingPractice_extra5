@@ -9,4 +9,3 @@ https://code-jump.com/extra5-menu/
 - [完成ページ](https://makowithyou.github.io/CodingPractice_extra5/)
 
 # 
-hover時にメニューが表示されるようにする
