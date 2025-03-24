@@ -69,6 +69,9 @@ ul.wide {
 li {
     background-color: var(--hover-bg-color);
 }
+li:hover {
+    color: rgb(255 255 255 / 50%);
+}
 
 /* 広い画面向けの CSS */
 @media (min-width: 600px) {
