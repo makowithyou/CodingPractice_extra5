@@ -17,8 +17,8 @@ addEventListener(
 )
 
 function toggleAttributeOpen(e) {
-    if (e.target.tagName == "SUMMARY") {
-        const details = e.target.parentElement;
+    if (e.target.tagName == "SUMMARY" || e.target.tagName == "LI") {
+        const details = e.target.closest("details")
         details.toggleAttribute("open");
     }
 }
