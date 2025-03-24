@@ -21,7 +21,6 @@ h2, ul {
     padding: unset;
 }
 h2 {
-    font-weight: 600;
     font-size: 26px;
     line-height: 5.38;
     color: var(--second-font-color);
@@ -45,7 +44,7 @@ details {
 }
 summary, li {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 3.5;
     color: var(--main-font-color);
     list-style: none;
@@ -73,4 +72,7 @@ li {
 
 /* 広い画面向けの CSS */
 @media (min-width: 600px) {
+    summary, li {
+        font-size: 14px;
+    }
 }
